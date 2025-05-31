@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework', # Thêm Django REST Framework vào đây
     'rest_framework.authtoken',
     'corsheaders',              # Đảm bảo dòng này cũng có
-    'dti_dashboard',            # <--- THÊM DÒNG NÀY
+    'dti_dashboard.apps.DtiDashboardConfig',         # <--- THÊM DÒNG NÀY
 ]
 
 MIDDLEWARE = [
